@@ -4,7 +4,7 @@ Imports System.Security.Cryptography
 Imports System.Text
 Imports System.IO
 
-'Omer comment
+
 Imports System.Net.NetworkInformation
 
 Module mdlGlobal
