@@ -100,7 +100,7 @@ Partial Class frmLogin
         '
         Me.lblLiscenceTypeTitle.Font = New System.Drawing.Font("Century Gothic", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblLiscenceTypeTitle.ForeColor = System.Drawing.Color.White
-        Me.lblLiscenceTypeTitle.Location = New System.Drawing.Point(10, 377)
+        Me.lblLiscenceTypeTitle.Location = New System.Drawing.Point(10, 376)
         Me.lblLiscenceTypeTitle.Name = "lblLiscenceTypeTitle"
         Me.lblLiscenceTypeTitle.Size = New System.Drawing.Size(280, 23)
         Me.lblLiscenceTypeTitle.TabIndex = 21
@@ -346,7 +346,7 @@ Partial Class frmLogin
         '
         Me.lblNote.AutoSize = True
         Me.lblNote.BackColor = System.Drawing.Color.Transparent
-        Me.lblNote.Font = New System.Drawing.Font("Calibri", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblNote.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblNote.ForeColor = System.Drawing.Color.Black
         Me.lblNote.Location = New System.Drawing.Point(16, 314)
         Me.lblNote.Name = "lblNote"
