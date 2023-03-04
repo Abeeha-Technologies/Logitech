@@ -125,10 +125,10 @@ Public Class TextBoxHint
 
             ' If we have a border for the Textbox, adjust our bounds
             Select Case Me.BorderStyle
-                Case Windows.Forms.BorderStyle.Fixed3D
+                Case System.Windows.Forms.BorderStyle.Fixed3D
                     myBounds.Width -= 2
 
-                Case Windows.Forms.BorderStyle.FixedSingle
+                Case System.Windows.Forms.BorderStyle.FixedSingle
                     myBounds.Width -= 1
 
                 Case Else

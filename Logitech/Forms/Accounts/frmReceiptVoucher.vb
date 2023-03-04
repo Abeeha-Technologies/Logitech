@@ -522,7 +522,7 @@ Public Class frmReceiptVoucher
 
                 If vRequireUserPasswordForDelete = "True" Then
                     frmPasswordInput.ShowDialog()
-                    If frmPasswordInput.DialogResult = Windows.Forms.DialogResult.Yes Then
+                    If frmPasswordInput.DialogResult = System.Windows.Forms.DialogResult.Yes Then
                         Delete(txtVoucherId.Text)
                         Exit Sub
                     Else

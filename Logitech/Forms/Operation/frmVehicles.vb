@@ -290,7 +290,7 @@ Public Class frmVehicles
 
                 If vRequireUserPasswordForDelete = "True" Then
                     frmPasswordInput.ShowDialog()
-                    If frmPasswordInput.DialogResult = Windows.Forms.DialogResult.Yes Then
+                    If frmPasswordInput.DialogResult = System.Windows.Forms.DialogResult.Yes Then
                         Delete(txtId.Text, txtChasisNumber.Text)
                         Exit Sub
                     Else

@@ -21,9 +21,9 @@ Module mdlGlobal
     Public StartDate As Date
 
     'Trial Variables
-    Public IsTrialVersion As Boolean = False
-    Public TrialDays As Integer = 2
-    Dim TrialIntimationDays As Integer = 2
+    Public IsTrialVersion As Boolean = True
+    Public TrialDays As Integer = 30
+    Dim TrialIntimationDays As Integer = 30
 
 
     'Valid Till Variable

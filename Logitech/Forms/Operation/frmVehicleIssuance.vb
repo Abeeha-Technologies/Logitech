@@ -210,7 +210,7 @@ Public Class frmVehicleIssuance
 
                 If vRequireUserPasswordForDelete = "True" Then
                     frmPasswordInput.ShowDialog()
-                    If frmPasswordInput.DialogResult = Windows.Forms.DialogResult.Yes Then
+                    If frmPasswordInput.DialogResult = System.Windows.Forms.DialogResult.Yes Then
 
                         Delete(txtId.Text)
                         Exit Sub
@@ -1038,7 +1038,7 @@ Public Class frmVehicleIssuance
 
 
 
-        If OpenFileDialog1.ShowDialog() = Windows.Forms.DialogResult.OK Then
+        If OpenFileDialog1.ShowDialog() = System.Windows.Forms.DialogResult.OK Then
             If Source = "Profile" Then
                 'ProfilePicture.Image.Dispose()
                 'ProfilePicture.Image = Image.FromFile(OpenFileDialog1.FileName)
